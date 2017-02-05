@@ -8,7 +8,7 @@
 #include <string.h>
 
 /*	old pi /dev/i2c-0
-	new pi /dev/i2c-0
+	new pi /dev/i2c-1
 	check with i2cdetect -y [1|0] first */
 #define I2C_DEVICE "/dev/i2c-0"
 #define AM2320_ADDR 0x5C
